@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('style.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+main {
+    margin: 30px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+main header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 110px;
+}
+
+main header img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+main header #titulo h1 {
+    font-size: 5pc;
+    font-family: poppins;
+}
+
+main header #titulo h2 {
+    font-size: 2pc;
+    font-family: poppins;
+}
+
+main header #titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    font-family: "Radio Canada Big";
+    font-size: 15pt;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+main #info {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+main #info h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+main #info a {
+    color: black;
+    text-decoration: none;
+}
+
+main h4 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 30pt;
+}
+
+main #projects {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+main #projects img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main li {
+    font-family: "Radio Canada Big";
+    font-weight: 400;
+    font-size: 20pt;
+    margin: 10px 10px;
+}
